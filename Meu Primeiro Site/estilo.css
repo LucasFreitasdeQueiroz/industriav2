@@ -1,0 +1,146 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    padding: 1%;
+    margin-bottom: 0;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0.5%;
+    
+}
+
+section {
+    padding: 20px;
+    float: left;
+}
+
+header {
+    background-color: black;
+    color:white;
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+li {
+    float: left;
+    padding: 20 10 20 10;
+}
+
+li:hover {
+    background-color: blue;
+}
+
+footer {
+    background-color: #01aaea; 
+    float: left;
+}
+
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 2;
+    top: 0;
+}
+
+#logo {
+    width: 200px;
+    float: left;
+    position: absolute;
+    top: 5px;
+    margin-left: 1%;
+}
+
+
+.destaque {
+    background-color: #f7f7f7;
+}
+
+.icones {
+    width: 60px;
+}
+
+.paragrafos {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+
+
+#imagem_fundo {
+    background: url("images/background.jpg");
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
+
+#titulo {
+    color: black;
+    padding-top: 20%;
+    font-size: 70px;
+    line-height: 0.6;
+    text-shadow: 1px 1px 1px black, -1px 1px 1px black, 1px -1px 1px black -1px -1px 1px black;
+    
+}
+
+#subtitulo {
+    color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 3px solid black;
+    text-shadow: black;
+    background-color: rgb(192, 192, 192);
+    border-radius: 10px;
+    border: black solid;
+    font-size: 20px;
+    
+}
+
+#acao {
+    color: black; 
+    border: 1px black solid;
+    padding: 10px 20px 10px 20px ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    text-shadow: black;
+    background-color:  rgb(192, 192, 192);
+}
+
+#sobremim {
+    width:20%;
+    
+}
+
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+
+.duas {
+    width: 40%;
+}
+
+.quatro {
+    width:15%;
+
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.centralizado {
+    text-align: center;
+}
+

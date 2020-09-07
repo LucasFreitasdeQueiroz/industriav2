@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    background: rgb(255, 255, 255);
+}
+
+h1{
+    font-family: 'Russo One', sans-serif;
+    font-size: 40px;
+    padding: 1%;
+    margin-bottom: 0;
+}
+
+h2{
+    font-family: 'Russo One', sans-serif;
+    padding: 0.5%;
+    
+}
+
+.paragrafos {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin: 5px 20px 24px;
+}
+
+#imagem_fundo {
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
